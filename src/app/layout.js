@@ -12,7 +12,7 @@ const poppins = Poppins({
 export const metadata = {
   title: "Bakmi Buncit",
   description:
-    "Bakmi enak, mantap dengan harga yang pasti gak buncit alias irit.",
+    "Nikmati sensasi kuliner yang unik di Bakmi Buncit, restoran yang menggabungkan cita rasa autentik Indonesia dan Chinese food dalam makanan halal berkualitas tinggi. Kunjungi kami sekarang untuk pengalaman kuliner yang tak terlupakan!",
 };
 
 export default function RootLayout({ children }) {
