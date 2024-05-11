@@ -115,6 +115,8 @@ const TopNav = () => {
                 type="button"
                 className={`w-12 z-30 shadow-lg transform hover:scale-105 transition-all duration-200 ease-in-out h-12 flex justify-center items-center rounded-full bg-orange-500 text-white fixed bottom-0 right-0 m-3 mb-16 ${showTopScroll ? "opacity-1" : "opacity-0"}`}
                 onClick={() => goToTop()}
+                aria-label="Go To Top"
+                id="go-to-top-button"
             >
                 <IoChevronUp size={28} />
             </button>

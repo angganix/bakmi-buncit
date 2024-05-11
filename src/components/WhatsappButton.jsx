@@ -12,6 +12,8 @@ const WhatsappButton = () => {
             type="button"
             className="fixed transform hover:scale-105 transition-all duration-200 ease-in-out bottom-0 right-0 m-3 z-30 text-white w-12 h-12 rounded-full bg-green-500 flex justify-center items-center shadow"
             onClick={() => openWhatsapp()}
+            aria-label="Whatsapp Button"
+            id="whatsapp-button"
         >
             <AiOutlineWhatsApp size={26} />
         </button>
