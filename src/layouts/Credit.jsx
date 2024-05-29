@@ -42,9 +42,9 @@ const IconLink = ({ icon = null, href = "#" }) => {
     const Icon = icon;
     return (
         <li>
-            <Link href={href} className="flex items-center gap-x-1 p-2 rounded-full bg-orange-500 text-white hover:bg-orange-600 transform hover:-translate-y-1 transition-all duration-200 ease-in-out">
+            <span className="flex items-center gap-x-1 p-2 rounded-full bg-orange-500 text-white hover:bg-orange-600 transform hover:-translate-y-1 transition-all duration-200 ease-in-out">
                 <Icon size={22} />
-            </Link>
+            </span>
         </li>
     )
 }

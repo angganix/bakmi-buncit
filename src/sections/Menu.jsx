@@ -5,10 +5,10 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, EffectCards } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-cards';
-import menu1 from "@/assets/menu-images/menu-1.jpg";
-import menu2 from "@/assets/menu-images/menu-2.jpg";
-import menu3 from "@/assets/menu-images/menu-3.jpg";
-import menu4 from "@/assets/menu-images/menu-4.jpg";
+import menu1 from "@/assets/menu-images/menu-1.webp";
+import menu2 from "@/assets/menu-images/menu-2.webp";
+import menu3 from "@/assets/menu-images/menu-3.webp";
+import menu4 from "@/assets/menu-images/menu-4.webp";
 
 const Menu = () => {
     const images = [menu1, menu2, menu3, menu4];
